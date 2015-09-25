@@ -3,9 +3,13 @@ OS - CentOS 6.5 x86_64
 Private IP - 192.168.55.56
 ***********************************************
 
+9/25/2015
+- Created a .gitignore file so that ownCloud folder will be ignored.
+
 9/24/2015
 - IP 192.168.130.1 was taken or not working, so change it to 192.168.55.56.
 - Accessing 192.168.55.56 has successfully open /var/www/html/index.php file. phpinfo(); is working properly.
+- Also ownCloud is working properly.
 
 9/23/2015
 - Initial development for making a ownCloud environment using Virtualbox and Vagrant.

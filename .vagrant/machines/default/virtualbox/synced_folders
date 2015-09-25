@@ -1,1 +1,1 @@
-{"virtualbox":{"/var/www/html":{"create":true,"guestpath":"/var/www/html","hostpath":"F:/Vagrant/owncloud-centos65/syncFiles/html","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"F:/Vagrant/owncloud-centos65","disabled":false}}}
+{"virtualbox":{"/vagrant":{"create":true,"guestpath":"/vagrant","hostpath":"F:/Vagrant/owncloud-centos65/syncFiles","disabled":false}}}

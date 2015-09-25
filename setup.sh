@@ -13,8 +13,15 @@ sudo service httpd restart
 sudo touch /etc/profile.d/enablephp54.sh
 echo 'source /opt/rh/php54/enable' | sudo tee --append /etc/profile.d/enablephp54.sh
 
-
 # Activate the new PHP version permanently
 source /opt/rh/php54/enable
 
+# Extract ownCloud tar
+#tar xvf owncloud-8.1.3.tar.bz2
 
+sudo cp -R /vagrant/index.php /var/www/html
+
+# Move ownCloud folder
+sudo cp -R /vagrant/owncloud /var/www/html
+
+sudo chmod -R 777 /var/www/html/owncloud
